@@ -8,5 +8,5 @@ from .models import Profile
 class ProfileAdminModel(admin.ModelAdmin):
     
     list_display = (
-        '__all__'
+        'user', 'username', 'first_name', 'last_name', 'email', 'profile'
     )

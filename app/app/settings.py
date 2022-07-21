@@ -40,6 +40,7 @@ ALLOWED_HOSTS.extend(
 
 INSTALLED_APPS = [
     # Project Applications
+    'core',
     'users_api',
     'auth_api',
     'projects_api',
