@@ -37,6 +37,8 @@ ALLOWED_HOSTS.extend(
 
 CORS_ALLOW_ALL_ORIGINS = True
 
+CORS_ORIGIN_WHITELIST = ( 'https://remarkable-dango-c4a280.netlify.app/' )
+
 # Application definition
 
 INSTALLED_APPS = [
