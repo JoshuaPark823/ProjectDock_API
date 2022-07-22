@@ -44,6 +44,15 @@ CORS_ORIGIN_WHITELIST = [
     'https://remarkable-dango-c4a280.netlify.app'
 ]
 
+CORS_ALLOW_METHODS = [
+    'DELETE',
+    'GET',
+    'OPTIONS',
+    'PATCH',
+    'POST',
+    'PUT',
+]
+
 # Application definition
 
 INSTALLED_APPS = [
