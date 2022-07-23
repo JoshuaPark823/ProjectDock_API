@@ -42,7 +42,8 @@ CORS_ORIGIN_WHITELIST = [
     'http://localhost:8000',
     'http://localhost:8080',
     'https://remarkable-dango-c4a280.netlify.app',
-    'http://ec2-3-131-96-92.us-east-2.compute.amazonaws.com',
+    'http://3.140.224.187',
+    '3.140.224.187',
     'https://projectdock.ca',
     'http://projectdock.ca'
 ]
