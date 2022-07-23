@@ -1,4 +1,6 @@
 server {
+    listen ${LISTEN_PORT_HTTPS};
+    listen ${LISTEN_PORT_HTTP};
     listen ${LISTEN_PORT};
 
     location /static {
