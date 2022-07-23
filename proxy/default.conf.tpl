@@ -1,5 +1,4 @@
 server {
-    listen ${LISTEN_PORT_HTTPS} ssl;
     listen ${LISTEN_PORT};
 
     location /static {
